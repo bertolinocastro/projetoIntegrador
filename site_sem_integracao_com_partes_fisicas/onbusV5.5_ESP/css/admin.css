@@ -1,0 +1,174 @@
+body,html{
+    height: 100%;
+}
+.admin .c-hamburger{
+    float: right;
+    margin-right: -18px;
+}
+.admin .c-hamburger--htx{
+    background: transparent;
+}
+.admin .c-hamburger--htx:active{
+    background: transparent
+}
+.admin .c-hamburger--htx.is-active span::before {
+    background: #000;
+}
+.admin .c-hamburger--htx.is-active span::after {
+    background: #000;
+}
+.painel_adm{
+    height: 100%;
+    background: #d1d1d1;
+    margin-left: -140px;
+}
+.fechado{
+    margin-left: 0;
+}
+.painel_adm ul{
+    clear: both;
+}
+.painel_adm li:first-child{
+    border: none;
+}
+.painel_adm li{
+    border-top: 2px solid rgba(0,0,0,0.5);
+}
+.painel_adm a{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.painel_adm .home:before{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../img/icon-casa.png)no-repeat;
+    float: right;
+    margin-top: -10px;
+}
+.painel_adm .pefil:before{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../img/user.png)no-repeat;
+    float: right;
+    margin-top: -10px;
+}
+.painel_adm .adm:before{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../img/oficcial.png)no-repeat;
+    float: right;
+    margin-top: -10px;
+}
+.painel_adm .log:before{
+    content: " ";
+    width: 50px;
+    height: 50px;
+    display: block;
+    background: url(../img/logout.png)no-repeat;
+    float: right;
+    margin-top: -10px;
+}
+
+/************ TELA *****************/
+.title{
+    display: block;
+    margin: 0 auto;
+    width: 190px;
+    height: auto;
+    margin-top: 20px;
+}
+.admin .form2{
+    display: none;
+}
+.input_c > button{ 
+    padding: 1em;
+    background: #fff;
+    text-decoration: none;
+    color: #032b7d;
+    font-size: 1.5em;
+    font-weight: bold;
+    display: inline-block;
+    border: none;
+}
+.input_c > button:focus{
+    border: none;
+}
+.butao_log{
+    display: block; 
+    width: 100%;
+    padding: 20px 0px;
+    background: #3668e8;
+    margin: 0 auto;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;   
+}
+.active{
+    color: #000 !important;
+    padding: 1.8em 1em 1em 1em !important;
+}
+.ativo{
+    display: block !important;
+}
+.desligado{
+    display: none !important;
+}
+.input_c > a:hover{
+    padding: 1.8em 1em 1em 1em;
+}
+.admin form{
+    width: 100%;
+    display: block;
+    background: #fff;
+    padding: 2em 0;
+}
+.admin .input__label--kaede{
+    height: 60px;
+}
+.input__field--kaede{
+    background: #cad6f9;
+}
+.input__label-content--kaede {
+    padding: 1em 0;
+}
+.input{
+    max-width: 100%;
+}
+.input--kaede{
+    background: #b5c8ff;
+    margin: 1em auto 2em;
+}
+.Sform .input__label{
+    font-size: 190.25%;
+}
+.input__label{
+    font-size: 140.25%;
+}
+.select-label{
+    display: block;
+    font-size: 120%;
+    color: #032b7d;
+}
+select{
+    width: 100%;
+    border: 2px solid #3879d9;
+    padding: 1em;
+    color: #3879d9;
+    margin: 1em 0;
+}
+option{
+    color: #3879d9;
+    margin: 1em;
+    display: block;
+}
